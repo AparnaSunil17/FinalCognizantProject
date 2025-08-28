@@ -35,18 +35,30 @@ import org.openqa.selenium.WebDriver;
 import testRunner.TestRun;
 public class Hooks {
     WebDriver driver;
+//    @Before
+//    public void setUp() {
+//        String browser = TestRun.getBrowserName();
+//        if (browser == null) {
+//            // Default to chrome if the parameter is not set
+//            browser = "chrome";
+//        }
+//        System.out.println("Launching browser: " + browser);
+//        driver = BaseClass.initializeDriver(browser);
+//    }
+//    @After
+//    public void tearDown() {
+//        BaseClass.quitDriver();
+//    }
     @Before
     public void setUp() {
-        String browser = TestRun.getBrowserName();
-        if (browser == null) {
-            // Default to chrome if the parameter is not set
-            browser = "chrome";
-        }
-        System.out.println("Launching browser: " + browser);
-        driver = BaseClass.initializeDriver(browser);
+        String browser = TestRun.getBrowserName(); // from testng.xml
+        BaseClass.initializeDriver(browser);       // creates browser
+        BaseClass.getDriver().get("https://www.godigit.com/"); // opens site
     }
+
     @After
     public void tearDown() {
-        BaseClass.quitDriver();
+        BaseClass.quitDriver(); // closes browser
     }
+
 }

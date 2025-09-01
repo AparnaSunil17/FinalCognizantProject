@@ -1,0 +1,533 @@
+11:14:09.272 [main] TRACE - [Graph]   ADDING PREDECESSOR FOR TestRunner.setBrowser(java.lang.String)[pri:0, instance:null] ==> AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null]
+11:14:09.304 [main] TRACE - [Graph]   REMOVED PRED AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null] FROM NODE TestRunner.setBrowser(java.lang.String)[pri:0, instance:null]
+11:14:09.304 [main] TRACE - [Graph] =============== DONE SORTING
+11:14:09.304 [main] TRACE - [Graph] ====== SORTED NODES
+11:14:09.305 [main] TRACE - [Graph]               AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null]
+11:14:09.305 [main] TRACE - [Graph]               TestRunner.setBrowser(java.lang.String)[pri:0, instance:null]
+11:14:09.305 [main] TRACE - [Graph] ====== END SORTED NODES
+11:14:09.306 [main] TRACE - [Graph] ADDING NODE AbstractTestNGCucumberTests.tearDownClass()[pri:0, instance:null] 1523153566
+11:14:09.308 [main] TRACE - [Graph] ================ SORTING
+11:14:09.308 [main] TRACE - [Graph] =============== DONE SORTING
+11:14:09.308 [main] TRACE - [Graph] ====== SORTED NODES
+11:14:09.308 [main] TRACE - [Graph] ====== END SORTED NODES
+11:14:09.309 [main] TRACE - [Graph] ADDING NODE AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1477089c] -807014035
+11:14:09.310 [main] TRACE - [Graph] ================ SORTING
+11:14:09.310 [main] TRACE - [Graph] =============== DONE SORTING
+11:14:09.310 [main] TRACE - [Graph] ====== SORTED NODES
+11:14:09.310 [main] TRACE - [Graph] ====== END SORTED NODES
+11:14:09.312 [main] INFO  - [TestNG] Running:
+  C:\Automation\workspace\DigitInsuranceTestNG\testng.xml
+
+11:14:20.396 [TestNG-tests-2] INFO  - Navigated to Commercial Insurance....
+11:14:21.079 [TestNG-tests-2] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:14:21.086 [TestNG-tests-2] DEBUG - Parsing relationship: /_rels/.rels
+11:14:21.491 [TestNG-tests-1] INFO  - Navigated to Commercial Insurance....
+11:14:21.512 [TestNG-tests-1] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:14:21.527 [TestNG-tests-1] DEBUG - Parsing relationship: /_rels/.rels
+11:14:21.598 [TestNG-tests-2] TRACE - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+11:14:21.606 [TestNG-tests-2] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+11:14:21.607 [TestNG-tests-2] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+11:14:21.609 [TestNG-tests-2] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+11:14:21.612 [TestNG-tests-2] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+11:14:21.614 [TestNG-tests-2] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+11:14:21.647 [TestNG-tests-2] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+11:14:21.649 [TestNG-tests-2] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+11:14:21.660 [TestNG-tests-2] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+11:14:21.664 [TestNG-tests-2] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+11:14:21.664 [TestNG-tests-2] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+11:14:21.670 [TestNG-tests-2] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+11:14:21.672 [TestNG-tests-2] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+11:14:21.675 [TestNG-tests-2] TRACE - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+11:14:21.771 [TestNG-tests-2] TRACE - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+11:14:21.773 [TestNG-tests-2] TRACE - Resolving type for handle themefd26doctype
+11:14:21.929 [TestNG-tests-2] TRACE - Resolving type for handle stylesheet5d8bdoctype
+11:14:21.943 [TestNG-tests-1] TRACE - Resolving type for handle ctstylesheet4257type
+11:14:21.959 [TestNG-tests-1] TRACE - Resolving type for handle ctnumfmtsb58btype
+11:14:21.968 [TestNG-tests-2] TRACE - Resolving type for handle ctnumfmt3870type
+11:14:21.972 [TestNG-tests-1] TRACE - Resolving type for handle stnumfmtid76fbtype
+11:14:21.994 [TestNG-tests-2] TRACE - Resolving type for handle stxstringf179type
+11:14:21.998 [TestNG-tests-1] TRACE - Resolving type for handle ctfonts6623type
+11:14:22.004 [TestNG-tests-2] TRACE - Resolving type for handle ctfont14d8type
+11:14:22.022 [TestNG-tests-1] TRACE - Resolving type for handle ctfills2c6ftype
+11:14:22.030 [TestNG-tests-1] TRACE - Resolving type for handle ctfill550ctype
+11:14:22.034 [TestNG-tests-1] TRACE - Resolving type for handle ctborders0d66type
+11:14:22.039 [TestNG-tests-1] TRACE - Resolving type for handle ctborderf935type
+11:14:22.045 [TestNG-tests-1] TRACE - Resolving type for handle ctcellxfs1322type
+11:14:22.049 [TestNG-tests-2] TRACE - Resolving type for handle ctxf97f7type
+11:14:22.055 [TestNG-tests-1] TRACE - Resolving type for handle ctcellstylexfsa81ftype
+11:14:22.059 [TestNG-tests-2] TRACE - Resolving type for handle ctdxfsb26atype
+11:14:22.063 [TestNG-tests-2] TRACE - Resolving type for handle cttablestyles872ftype
+11:14:22.071 [TestNG-tests-1] TRACE - Resolving type for handle sstf81fdoctype
+11:14:22.077 [TestNG-tests-2] TRACE - Resolving type for handle ctsst44f3type
+11:14:22.083 [TestNG-tests-1] TRACE - Resolving type for handle ctrsta472type
+11:14:22.114 [TestNG-tests-2] TRACE - Resolving type for handle workbookec17doctype
+11:14:22.121 [TestNG-tests-1] TRACE - Resolving type for handle ctworkbook83c3type
+11:14:22.132 [TestNG-tests-2] TRACE - Resolving type for handle ctsheets49fdtype
+11:14:22.136 [TestNG-tests-2] TRACE - Resolving type for handle ctsheet4dbetype
+11:14:22.137 [TestNG-tests-2] TRACE - Resolving type for handle strelationshipid1e94type
+11:14:22.142 [TestNG-tests-2] TRACE - Resolving type for handle worksheetf539doctype
+11:14:22.151 [TestNG-tests-1] TRACE - Resolving type for handle ctworksheet530dtype
+11:14:22.163 [TestNG-tests-1] TRACE - Resolving type for handle ctcols627ctype
+11:14:22.172 [TestNG-tests-1] TRACE - Resolving type for handle ctcola95ftype
+11:14:22.199 [TestNG-tests-1] TRACE - Resolving type for handle ctsheetdata8408type
+11:14:22.203 [TestNG-tests-1] TRACE - Resolving type for handle ctrowdd39type
+11:14:22.215 [TestNG-tests-2] TRACE - Resolving type for handle ctcell842btype
+11:14:22.231 [TestNG-tests-1] TRACE - Resolving type for handle stcellrefe4e0type
+11:14:34.451 [TestNG-tests-1] INFO  - Navigated to Commercial Insurance....
+11:14:34.466 [TestNG-tests-1] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:14:34.468 [TestNG-tests-1] DEBUG - Parsing relationship: /_rels/.rels
+11:14:45.127 [TestNG-tests-2] INFO  - Navigated to Commercial Insurance....
+11:14:45.166 [TestNG-tests-2] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:14:45.168 [TestNG-tests-2] DEBUG - Parsing relationship: /_rels/.rels
+11:14:46.998 [TestNG-tests-1] INFO  - Navigated to Commercial Insurance....
+11:14:47.011 [TestNG-tests-1] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:14:47.012 [TestNG-tests-1] DEBUG - Parsing relationship: /_rels/.rels
+11:14:59.035 [TestNG-tests-2] INFO  - Navigated to Commercial Insurance....
+11:14:59.048 [TestNG-tests-2] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:14:59.050 [TestNG-tests-2] DEBUG - Parsing relationship: /_rels/.rels
+11:15:00.406 [TestNG-tests-1] INFO  - Navigated to Commercial Insurance....
+11:15:00.417 [TestNG-tests-1] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:15:00.418 [TestNG-tests-1] DEBUG - Parsing relationship: /_rels/.rels
+11:15:13.054 [TestNG-tests-1] INFO  - Navigated to Commercial Insurance....
+11:15:13.063 [TestNG-tests-1] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:15:13.065 [TestNG-tests-1] DEBUG - Parsing relationship: /_rels/.rels
+11:15:21.063 [TestNG-tests-2] INFO  - Navigated to Commercial Insurance....
+11:15:21.104 [TestNG-tests-2] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:15:21.105 [TestNG-tests-2] DEBUG - Parsing relationship: /_rels/.rels
+11:15:23.964 [main] TRACE - [Graph] ADDING NODE AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1852a3ff] -742290224
+11:15:23.964 [main] TRACE - [Graph] ================ SORTING
+11:15:23.965 [main] TRACE - [Graph] =============== DONE SORTING
+11:15:23.965 [main] TRACE - [Graph] ====== SORTED NODES
+11:15:23.966 [main] TRACE - [Graph] ====== END SORTED NODES
+11:15:23.977 [main] TRACE - [Graph] ADDING NODE AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1477089c] -807014035
+11:15:23.977 [main] TRACE - [Graph] ================ SORTING
+11:15:23.978 [main] TRACE - [Graph] =============== DONE SORTING
+11:15:23.978 [main] TRACE - [Graph] ====== SORTED NODES
+11:15:23.978 [main] TRACE - [Graph] ====== END SORTED NODES
+11:17:04.175 [main] DEBUG - suiteXmlPath: "C:\Automation\workspace\DigitInsuranceTestNG\testng.xml"
+11:17:04.442 [main] TRACE - [Graph] ADDING NODE AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null] -393284817
+11:17:04.442 [main] TRACE - [Graph] ADDING NODE TestRunner.setBrowser(java.lang.String)[pri:0, instance:null] -213729785
+11:17:04.444 [main] TRACE - [Graph]   ADDING PREDECESSOR FOR TestRunner.setBrowser(java.lang.String)[pri:0, instance:null] ==> AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null]
+11:17:04.447 [main] TRACE - [Graph]   REMOVED AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+11:17:04.447 [main] TRACE - [Graph] ================ SORTING
+11:17:04.448 [main] TRACE - [Graph]   ADDING PREDECESSOR FOR TestRunner.setBrowser(java.lang.String)[pri:0, instance:null] ==> AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null]
+11:17:04.449 [main] TRACE - [Graph]   REMOVED PRED AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null] FROM NODE TestRunner.setBrowser(java.lang.String)[pri:0, instance:null]
+11:17:04.449 [main] TRACE - [Graph] =============== DONE SORTING
+11:17:04.449 [main] TRACE - [Graph] ====== SORTED NODES
+11:17:04.451 [main] TRACE - [Graph]               AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null]
+11:17:04.451 [main] TRACE - [Graph]               TestRunner.setBrowser(java.lang.String)[pri:0, instance:null]
+11:17:04.451 [main] TRACE - [Graph] ====== END SORTED NODES
+11:17:04.452 [main] TRACE - [Graph] ADDING NODE AbstractTestNGCucumberTests.tearDownClass()[pri:0, instance:null] 1523153566
+11:17:04.452 [main] TRACE - [Graph] ================ SORTING
+11:17:04.452 [main] TRACE - [Graph] =============== DONE SORTING
+11:17:04.452 [main] TRACE - [Graph] ====== SORTED NODES
+11:17:04.452 [main] TRACE - [Graph] ====== END SORTED NODES
+11:17:04.461 [main] TRACE - [Graph] ADDING NODE AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1852a3ff] -742290224
+11:17:04.461 [main] TRACE - [Graph] ================ SORTING
+11:17:04.461 [main] TRACE - [Graph] =============== DONE SORTING
+11:17:04.461 [main] TRACE - [Graph] ====== SORTED NODES
+11:17:04.461 [main] TRACE - [Graph] ====== END SORTED NODES
+11:17:04.475 [main] TRACE - [Graph] ADDING NODE AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null] -393284817
+11:17:04.475 [main] TRACE - [Graph] ADDING NODE TestRunner.setBrowser(java.lang.String)[pri:0, instance:null] -213729785
+11:17:04.475 [main] TRACE - [Graph]   ADDING PREDECESSOR FOR TestRunner.setBrowser(java.lang.String)[pri:0, instance:null] ==> AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null]
+11:17:04.475 [main] TRACE - [Graph]   REMOVED AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+11:17:04.475 [main] TRACE - [Graph] ================ SORTING
+11:17:04.475 [ForkJoinPool.commonPool-worker-2] TRACE - [Graph]   ADDING PREDECESSOR FOR TestRunner.setBrowser(java.lang.String)[pri:0, instance:null] ==> AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null]
+11:17:04.476 [main] TRACE - [Graph]   REMOVED PRED AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null] FROM NODE TestRunner.setBrowser(java.lang.String)[pri:0, instance:null]
+11:17:04.476 [main] TRACE - [Graph] =============== DONE SORTING
+11:17:04.476 [main] TRACE - [Graph] ====== SORTED NODES
+11:17:04.476 [main] TRACE - [Graph]               AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null]
+11:17:04.476 [main] TRACE - [Graph]               TestRunner.setBrowser(java.lang.String)[pri:0, instance:null]
+11:17:04.476 [main] TRACE - [Graph] ====== END SORTED NODES
+11:17:04.477 [main] TRACE - [Graph] ADDING NODE AbstractTestNGCucumberTests.tearDownClass()[pri:0, instance:null] 1523153566
+11:17:04.478 [main] TRACE - [Graph] ================ SORTING
+11:17:04.478 [main] TRACE - [Graph] =============== DONE SORTING
+11:17:04.478 [main] TRACE - [Graph] ====== SORTED NODES
+11:17:04.478 [main] TRACE - [Graph] ====== END SORTED NODES
+11:17:04.479 [main] TRACE - [Graph] ADDING NODE AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@5d9b7a8a] 420111195
+11:17:04.480 [main] TRACE - [Graph] ================ SORTING
+11:17:04.480 [main] TRACE - [Graph] =============== DONE SORTING
+11:17:04.480 [main] TRACE - [Graph] ====== SORTED NODES
+11:17:04.480 [main] TRACE - [Graph] ====== END SORTED NODES
+11:17:04.482 [main] INFO  - [TestNG] Running:
+  C:\Automation\workspace\DigitInsuranceTestNG\testng.xml
+
+11:17:13.313 [TestNG-tests-1] INFO  - Navigated to Commercial Insurance....
+11:17:14.089 [TestNG-tests-1] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:17:14.095 [TestNG-tests-1] DEBUG - Parsing relationship: /_rels/.rels
+11:17:14.554 [TestNG-tests-1] TRACE - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+11:17:14.560 [TestNG-tests-1] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+11:17:14.562 [TestNG-tests-1] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+11:17:14.564 [TestNG-tests-1] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+11:17:14.566 [TestNG-tests-1] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+11:17:14.570 [TestNG-tests-1] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+11:17:14.599 [TestNG-tests-1] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+11:17:14.602 [TestNG-tests-1] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+11:17:14.613 [TestNG-tests-1] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+11:17:14.617 [TestNG-tests-1] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+11:17:14.622 [TestNG-tests-1] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+11:17:14.624 [TestNG-tests-1] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+11:17:14.628 [TestNG-tests-1] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+11:17:14.630 [TestNG-tests-1] TRACE - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+11:17:14.743 [TestNG-tests-1] TRACE - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+11:17:14.745 [TestNG-tests-1] TRACE - Resolving type for handle themefd26doctype
+11:17:14.911 [TestNG-tests-1] TRACE - Resolving type for handle stylesheet5d8bdoctype
+11:17:14.926 [TestNG-tests-1] TRACE - Resolving type for handle ctstylesheet4257type
+11:17:14.939 [TestNG-tests-1] TRACE - Resolving type for handle ctnumfmtsb58btype
+11:17:14.948 [TestNG-tests-1] TRACE - Resolving type for handle ctnumfmt3870type
+11:17:14.955 [TestNG-tests-1] TRACE - Resolving type for handle stnumfmtid76fbtype
+11:17:14.973 [TestNG-tests-1] TRACE - Resolving type for handle stxstringf179type
+11:17:14.979 [TestNG-tests-1] TRACE - Resolving type for handle ctfonts6623type
+11:17:14.985 [TestNG-tests-1] TRACE - Resolving type for handle ctfont14d8type
+11:17:15.000 [TestNG-tests-1] TRACE - Resolving type for handle ctfills2c6ftype
+11:17:15.006 [TestNG-tests-1] TRACE - Resolving type for handle ctfill550ctype
+11:17:15.012 [TestNG-tests-1] TRACE - Resolving type for handle ctborders0d66type
+11:17:15.024 [TestNG-tests-1] TRACE - Resolving type for handle ctborderf935type
+11:17:15.036 [TestNG-tests-1] TRACE - Resolving type for handle ctcellxfs1322type
+11:17:15.044 [TestNG-tests-1] TRACE - Resolving type for handle ctxf97f7type
+11:17:15.058 [TestNG-tests-1] TRACE - Resolving type for handle ctcellstylexfsa81ftype
+11:17:15.063 [TestNG-tests-1] TRACE - Resolving type for handle ctdxfsb26atype
+11:17:15.069 [TestNG-tests-1] TRACE - Resolving type for handle cttablestyles872ftype
+11:17:15.078 [TestNG-tests-1] TRACE - Resolving type for handle sstf81fdoctype
+11:17:15.090 [TestNG-tests-1] TRACE - Resolving type for handle ctsst44f3type
+11:17:15.112 [TestNG-tests-1] TRACE - Resolving type for handle ctrsta472type
+11:17:15.118 [TestNG-tests-2] INFO  - Navigated to Commercial Insurance....
+11:17:15.152 [TestNG-tests-2] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:17:15.155 [TestNG-tests-2] DEBUG - Parsing relationship: /_rels/.rels
+11:17:15.196 [TestNG-tests-1] TRACE - Resolving type for handle workbookec17doctype
+11:17:15.224 [TestNG-tests-2] TRACE - Resolving type for handle ctworkbook83c3type
+11:17:15.236 [TestNG-tests-2] TRACE - Resolving type for handle ctsheets49fdtype
+11:17:15.253 [TestNG-tests-2] TRACE - Resolving type for handle ctsheet4dbetype
+11:17:15.256 [TestNG-tests-2] TRACE - Resolving type for handle strelationshipid1e94type
+11:17:15.261 [TestNG-tests-2] TRACE - Resolving type for handle worksheetf539doctype
+11:17:15.276 [TestNG-tests-1] TRACE - Resolving type for handle ctworksheet530dtype
+11:17:15.302 [TestNG-tests-2] TRACE - Resolving type for handle ctcols627ctype
+11:17:15.319 [TestNG-tests-2] TRACE - Resolving type for handle ctcola95ftype
+11:17:15.356 [TestNG-tests-1] TRACE - Resolving type for handle ctsheetdata8408type
+11:17:15.363 [TestNG-tests-1] TRACE - Resolving type for handle ctrowdd39type
+11:17:15.377 [TestNG-tests-1] TRACE - Resolving type for handle ctcell842btype
+11:17:15.395 [TestNG-tests-1] TRACE - Resolving type for handle stcellrefe4e0type
+11:17:15.457 [TestNG-tests-1] TRACE - Resolving type for handle stcelltypebf95type
+11:17:15.478 [TestNG-tests-2] TRACE - Resolving type for handle stcellstylexfid70c7type
+11:17:15.774 [TestNG-tests-1] INFO  - Entered the Phone Number....
+11:17:15.829 [TestNG-tests-2] INFO  - Entered the Phone Number....
+11:17:15.999 [TestNG-tests-1] INFO  - Captured the error message for MISSING REGISTRATION NUMBER..
+11:17:43.542 [TestNG-tests-1] INFO  - Navigated to Commercial Insurance....
+11:17:43.556 [TestNG-tests-1] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:17:43.559 [TestNG-tests-1] DEBUG - Parsing relationship: /_rels/.rels
+11:17:43.716 [TestNG-tests-1] INFO  - Entered the Registration Number..
+11:17:43.729 [TestNG-tests-1] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:17:43.731 [TestNG-tests-1] DEBUG - Parsing relationship: /_rels/.rels
+11:17:45.931 [TestNG-tests-1] INFO  - Entered the invalid phone Number..
+11:17:46.017 [TestNG-tests-1] INFO  - Clicked View Prices Button..
+11:17:46.064 [TestNG-tests-1] INFO  - Captured the error message for INVALID PHONE NUMBER..
+11:17:54.236 [TestNG-tests-1] INFO  - Navigated to Commercial Insurance....
+11:17:54.250 [TestNG-tests-1] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:17:54.252 [TestNG-tests-1] DEBUG - Parsing relationship: /_rels/.rels
+11:17:54.434 [TestNG-tests-1] INFO  - Entered the Registration Number..
+11:17:54.446 [TestNG-tests-1] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:17:54.446 [TestNG-tests-1] DEBUG - Parsing relationship: /_rels/.rels
+11:17:55.385 [TestNG-tests-2] INFO  - Failed to capture the error message..
+11:17:56.624 [TestNG-tests-1] INFO  - Entered the invalid phone Number..
+11:17:56.684 [TestNG-tests-1] INFO  - Clicked View Prices Button..
+11:17:56.754 [TestNG-tests-1] INFO  - Captured the error message for INVALID PHONE NUMBER..
+11:18:01.576 [TestNG-tests-2] INFO  - Navigated to Commercial Insurance....
+11:18:01.588 [TestNG-tests-2] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:18:01.590 [TestNG-tests-2] DEBUG - Parsing relationship: /_rels/.rels
+11:18:03.065 [TestNG-tests-2] INFO  - Entered the Phone Number....
+11:18:03.344 [TestNG-tests-2] INFO  - Captured the error message for MISSING REGISTRATION NUMBER..
+11:18:07.023 [TestNG-tests-1] INFO  - Navigated to Commercial Insurance....
+11:18:07.035 [TestNG-tests-1] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:18:07.035 [TestNG-tests-1] DEBUG - Parsing relationship: /_rels/.rels
+11:18:07.191 [TestNG-tests-1] INFO  - Entered the Registration Number..
+11:18:07.205 [TestNG-tests-1] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:18:07.208 [TestNG-tests-1] DEBUG - Parsing relationship: /_rels/.rels
+11:18:10.461 [TestNG-tests-1] INFO  - Entered the invalid phone Number..
+11:18:10.657 [TestNG-tests-1] INFO  - Clicked View Prices Button..
+11:18:10.752 [TestNG-tests-1] INFO  - Captured the error message for INVALID PHONE NUMBER..
+11:18:13.942 [TestNG-tests-2] INFO  - Navigated to Commercial Insurance....
+11:18:13.956 [TestNG-tests-2] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:18:13.956 [TestNG-tests-2] DEBUG - Parsing relationship: /_rels/.rels
+11:18:14.239 [TestNG-tests-2] INFO  - Entered the Phone Number....
+11:19:14.293 [TestNG-tests-2] INFO  - Failed to capture the error message..
+11:19:23.150 [TestNG-tests-2] INFO  - Navigated to Commercial Insurance....
+11:19:23.162 [TestNG-tests-2] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:19:23.165 [TestNG-tests-2] DEBUG - Parsing relationship: /_rels/.rels
+11:19:23.356 [TestNG-tests-2] INFO  - Entered the Registration Number..
+11:19:23.365 [TestNG-tests-2] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:19:23.366 [TestNG-tests-2] DEBUG - Parsing relationship: /_rels/.rels
+11:19:25.510 [TestNG-tests-2] INFO  - Entered the invalid phone Number..
+11:19:25.554 [TestNG-tests-2] INFO  - Clicked View Prices Button..
+11:19:25.585 [TestNG-tests-2] INFO  - Captured the error message for INVALID PHONE NUMBER..
+11:19:41.255 [TestNG-tests-2] INFO  - Navigated to Commercial Insurance....
+11:19:41.270 [TestNG-tests-2] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:19:41.273 [TestNG-tests-2] DEBUG - Parsing relationship: /_rels/.rels
+11:19:41.485 [TestNG-tests-2] INFO  - Entered the Registration Number..
+11:19:41.494 [TestNG-tests-2] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:19:41.495 [TestNG-tests-2] DEBUG - Parsing relationship: /_rels/.rels
+11:19:43.650 [TestNG-tests-2] INFO  - Entered the invalid phone Number..
+11:19:43.691 [TestNG-tests-2] INFO  - Clicked View Prices Button..
+11:19:43.724 [TestNG-tests-2] INFO  - Captured the error message for INVALID PHONE NUMBER..
+11:20:48.278 [main] DEBUG - suiteXmlPath: "C:\Automation\workspace\DigitInsuranceTestNG\testng.xml"
+11:20:48.566 [main] TRACE - [Graph] ADDING NODE AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null] -393284817
+11:20:48.567 [main] TRACE - [Graph] ADDING NODE TestRunner.setBrowser(java.lang.String)[pri:0, instance:null] -213729785
+11:20:48.568 [main] TRACE - [Graph]   ADDING PREDECESSOR FOR TestRunner.setBrowser(java.lang.String)[pri:0, instance:null] ==> AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null]
+11:20:48.572 [main] TRACE - [Graph]   REMOVED AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+11:20:48.572 [main] TRACE - [Graph] ================ SORTING
+11:20:48.576 [main] TRACE - [Graph]   ADDING PREDECESSOR FOR TestRunner.setBrowser(java.lang.String)[pri:0, instance:null] ==> AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null]
+11:20:48.578 [main] TRACE - [Graph]   REMOVED PRED AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null] FROM NODE TestRunner.setBrowser(java.lang.String)[pri:0, instance:null]
+11:20:48.578 [main] TRACE - [Graph] =============== DONE SORTING
+11:20:48.578 [main] TRACE - [Graph] ====== SORTED NODES
+11:20:48.579 [main] TRACE - [Graph]               AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null]
+11:20:48.579 [main] TRACE - [Graph]               TestRunner.setBrowser(java.lang.String)[pri:0, instance:null]
+11:20:48.579 [main] TRACE - [Graph] ====== END SORTED NODES
+11:20:48.581 [main] TRACE - [Graph] ADDING NODE AbstractTestNGCucumberTests.tearDownClass()[pri:0, instance:null] 1523153566
+11:20:48.581 [main] TRACE - [Graph] ================ SORTING
+11:20:48.581 [main] TRACE - [Graph] =============== DONE SORTING
+11:20:48.581 [main] TRACE - [Graph] ====== SORTED NODES
+11:20:48.581 [main] TRACE - [Graph] ====== END SORTED NODES
+11:20:48.590 [main] TRACE - [Graph] ADDING NODE AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@93cf163] -995370444
+11:20:48.590 [main] TRACE - [Graph] ================ SORTING
+11:20:48.590 [main] TRACE - [Graph] =============== DONE SORTING
+11:20:48.590 [main] TRACE - [Graph] ====== SORTED NODES
+11:20:48.590 [main] TRACE - [Graph] ====== END SORTED NODES
+11:20:48.610 [main] TRACE - [Graph] ADDING NODE AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null] -393284817
+11:20:48.610 [main] TRACE - [Graph] ADDING NODE TestRunner.setBrowser(java.lang.String)[pri:0, instance:null] -213729785
+11:20:48.610 [main] TRACE - [Graph]   ADDING PREDECESSOR FOR TestRunner.setBrowser(java.lang.String)[pri:0, instance:null] ==> AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null]
+11:20:48.610 [main] TRACE - [Graph]   REMOVED AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+11:20:48.610 [main] TRACE - [Graph] ================ SORTING
+11:20:48.611 [ForkJoinPool.commonPool-worker-2] TRACE - [Graph]   ADDING PREDECESSOR FOR TestRunner.setBrowser(java.lang.String)[pri:0, instance:null] ==> AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null]
+11:20:48.612 [main] TRACE - [Graph]   REMOVED PRED AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null] FROM NODE TestRunner.setBrowser(java.lang.String)[pri:0, instance:null]
+11:20:48.612 [main] TRACE - [Graph] =============== DONE SORTING
+11:20:48.612 [main] TRACE - [Graph] ====== SORTED NODES
+11:20:48.612 [main] TRACE - [Graph]               AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null]
+11:20:48.612 [main] TRACE - [Graph]               TestRunner.setBrowser(java.lang.String)[pri:0, instance:null]
+11:20:48.612 [main] TRACE - [Graph] ====== END SORTED NODES
+11:20:48.613 [main] TRACE - [Graph] ADDING NODE AbstractTestNGCucumberTests.tearDownClass()[pri:0, instance:null] 1523153566
+11:20:48.614 [main] TRACE - [Graph] ================ SORTING
+11:20:48.614 [main] TRACE - [Graph] =============== DONE SORTING
+11:20:48.614 [main] TRACE - [Graph] ====== SORTED NODES
+11:20:48.614 [main] TRACE - [Graph] ====== END SORTED NODES
+11:20:48.615 [main] TRACE - [Graph] ADDING NODE AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@77b14724] 857747445
+11:20:48.615 [main] TRACE - [Graph] ================ SORTING
+11:20:48.615 [main] TRACE - [Graph] =============== DONE SORTING
+11:20:48.617 [main] TRACE - [Graph] ====== SORTED NODES
+11:20:48.617 [main] TRACE - [Graph] ====== END SORTED NODES
+11:20:48.618 [main] INFO  - [TestNG] Running:
+  C:\Automation\workspace\DigitInsuranceTestNG\testng.xml
+
+11:20:57.449 [TestNG-tests-1] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:20:57.476 [TestNG-tests-1] DEBUG - Parsing relationship: /_rels/.rels
+11:20:58.058 [TestNG-tests-1] TRACE - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+11:20:58.064 [TestNG-tests-1] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+11:20:58.068 [TestNG-tests-1] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+11:20:58.070 [TestNG-tests-1] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+11:20:58.072 [TestNG-tests-1] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+11:20:58.077 [TestNG-tests-1] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+11:20:58.129 [TestNG-tests-1] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+11:20:58.132 [TestNG-tests-1] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+11:20:58.143 [TestNG-tests-1] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+11:20:58.146 [TestNG-tests-1] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+11:20:58.148 [TestNG-tests-1] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+11:20:58.153 [TestNG-tests-1] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+11:20:58.157 [TestNG-tests-1] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+11:20:58.159 [TestNG-tests-1] TRACE - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+11:20:58.312 [TestNG-tests-1] TRACE - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+11:20:58.314 [TestNG-tests-1] TRACE - Resolving type for handle themefd26doctype
+11:20:58.496 [TestNG-tests-1] TRACE - Resolving type for handle stylesheet5d8bdoctype
+11:20:58.510 [TestNG-tests-1] TRACE - Resolving type for handle ctstylesheet4257type
+11:20:58.531 [TestNG-tests-1] TRACE - Resolving type for handle ctnumfmtsb58btype
+11:20:58.536 [TestNG-tests-1] TRACE - Resolving type for handle ctnumfmt3870type
+11:20:58.540 [TestNG-tests-1] TRACE - Resolving type for handle stnumfmtid76fbtype
+11:20:58.553 [TestNG-tests-1] TRACE - Resolving type for handle stxstringf179type
+11:20:58.557 [TestNG-tests-1] TRACE - Resolving type for handle ctfonts6623type
+11:20:58.563 [TestNG-tests-1] TRACE - Resolving type for handle ctfont14d8type
+11:20:58.588 [TestNG-tests-1] TRACE - Resolving type for handle ctfills2c6ftype
+11:20:58.593 [TestNG-tests-1] TRACE - Resolving type for handle ctfill550ctype
+11:20:58.603 [TestNG-tests-1] TRACE - Resolving type for handle ctborders0d66type
+11:20:58.624 [TestNG-tests-1] TRACE - Resolving type for handle ctborderf935type
+11:20:58.659 [TestNG-tests-1] TRACE - Resolving type for handle ctcellxfs1322type
+11:20:58.667 [TestNG-tests-1] TRACE - Resolving type for handle ctxf97f7type
+11:20:58.680 [TestNG-tests-2] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:20:58.683 [TestNG-tests-2] DEBUG - Parsing relationship: /_rels/.rels
+11:20:58.707 [TestNG-tests-1] TRACE - Resolving type for handle ctcellstylexfsa81ftype
+11:20:58.723 [TestNG-tests-1] TRACE - Resolving type for handle ctdxfsb26atype
+11:20:58.744 [TestNG-tests-2] TRACE - Resolving type for handle cttablestyles872ftype
+11:20:58.759 [TestNG-tests-1] TRACE - Resolving type for handle sstf81fdoctype
+11:20:58.772 [TestNG-tests-2] TRACE - Resolving type for handle ctsst44f3type
+11:20:58.795 [TestNG-tests-2] TRACE - Resolving type for handle ctrsta472type
+11:20:58.877 [TestNG-tests-2] TRACE - Resolving type for handle workbookec17doctype
+11:20:58.896 [TestNG-tests-2] TRACE - Resolving type for handle ctworkbook83c3type
+11:20:58.906 [TestNG-tests-2] TRACE - Resolving type for handle ctsheets49fdtype
+11:20:58.913 [TestNG-tests-2] TRACE - Resolving type for handle ctsheet4dbetype
+11:20:58.938 [TestNG-tests-2] TRACE - Resolving type for handle strelationshipid1e94type
+11:20:58.946 [TestNG-tests-2] TRACE - Resolving type for handle worksheetf539doctype
+11:20:58.959 [TestNG-tests-2] TRACE - Resolving type for handle ctworksheet530dtype
+11:20:58.983 [TestNG-tests-1] TRACE - Resolving type for handle ctcols627ctype
+11:20:58.993 [TestNG-tests-2] TRACE - Resolving type for handle ctcola95ftype
+11:20:59.033 [TestNG-tests-2] TRACE - Resolving type for handle ctsheetdata8408type
+11:20:59.041 [TestNG-tests-2] TRACE - Resolving type for handle ctrowdd39type
+11:20:59.083 [TestNG-tests-1] TRACE - Resolving type for handle ctcell842btype
+11:20:59.098 [TestNG-tests-2] TRACE - Resolving type for handle stcellrefe4e0type
+11:20:59.137 [TestNG-tests-1] TRACE - Resolving type for handle stcelltypebf95type
+11:20:59.154 [TestNG-tests-2] TRACE - Resolving type for handle stcellstylexfid70c7type
+11:20:59.167 [TestNG-tests-1] TRACE - Resolving type for handle ctworkbookpr03a5type
+11:21:01.604 [TestNG-tests-2] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:21:01.605 [TestNG-tests-2] DEBUG - Parsing relationship: /_rels/.rels
+11:21:17.327 [TestNG-tests-2] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:21:17.329 [TestNG-tests-2] DEBUG - Parsing relationship: /_rels/.rels
+11:21:20.813 [TestNG-tests-2] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:21:20.814 [TestNG-tests-2] DEBUG - Parsing relationship: /_rels/.rels
+11:21:23.335 [TestNG-tests-1] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:21:23.338 [TestNG-tests-1] DEBUG - Parsing relationship: /_rels/.rels
+11:21:38.448 [TestNG-tests-2] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:21:38.451 [TestNG-tests-2] DEBUG - Parsing relationship: /_rels/.rels
+11:22:02.007 [main] TRACE - [Graph] ADDING NODE AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@93cf163] -995370444
+11:22:02.007 [main] TRACE - [Graph] ================ SORTING
+11:22:02.007 [main] TRACE - [Graph] =============== DONE SORTING
+11:22:02.007 [main] TRACE - [Graph] ====== SORTED NODES
+11:22:02.010 [main] TRACE - [Graph] ====== END SORTED NODES
+11:23:10.554 [main] DEBUG - suiteXmlPath: "C:\Automation\workspace\DigitInsuranceTestNG\testng.xml"
+11:23:10.849 [main] TRACE - [Graph] ADDING NODE AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null] -393284817
+11:23:10.850 [main] TRACE - [Graph] ADDING NODE TestRunner.setBrowser(java.lang.String)[pri:0, instance:null] -213729785
+11:23:10.851 [main] TRACE - [Graph]   ADDING PREDECESSOR FOR TestRunner.setBrowser(java.lang.String)[pri:0, instance:null] ==> AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null]
+11:23:10.857 [main] TRACE - [Graph]   REMOVED AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+11:23:10.857 [main] TRACE - [Graph] ================ SORTING
+11:23:10.860 [main] TRACE - [Graph]   ADDING PREDECESSOR FOR TestRunner.setBrowser(java.lang.String)[pri:0, instance:null] ==> AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null]
+11:23:10.861 [main] TRACE - [Graph]   REMOVED PRED AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null] FROM NODE TestRunner.setBrowser(java.lang.String)[pri:0, instance:null]
+11:23:10.862 [main] TRACE - [Graph] =============== DONE SORTING
+11:23:10.862 [main] TRACE - [Graph] ====== SORTED NODES
+11:23:10.862 [main] TRACE - [Graph]               AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null]
+11:23:10.862 [main] TRACE - [Graph]               TestRunner.setBrowser(java.lang.String)[pri:0, instance:null]
+11:23:10.862 [main] TRACE - [Graph] ====== END SORTED NODES
+11:23:10.864 [main] TRACE - [Graph] ADDING NODE AbstractTestNGCucumberTests.tearDownClass()[pri:0, instance:null] 1523153566
+11:23:10.865 [main] TRACE - [Graph] ================ SORTING
+11:23:10.865 [main] TRACE - [Graph] =============== DONE SORTING
+11:23:10.865 [main] TRACE - [Graph] ====== SORTED NODES
+11:23:10.865 [main] TRACE - [Graph] ====== END SORTED NODES
+11:23:10.873 [main] TRACE - [Graph] ADDING NODE AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1852a3ff] -742290224
+11:23:10.873 [main] TRACE - [Graph] ================ SORTING
+11:23:10.875 [main] TRACE - [Graph] =============== DONE SORTING
+11:23:10.875 [main] TRACE - [Graph] ====== SORTED NODES
+11:23:10.875 [main] TRACE - [Graph] ====== END SORTED NODES
+11:23:10.890 [main] TRACE - [Graph] ADDING NODE AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null] -393284817
+11:23:10.892 [main] TRACE - [Graph] ADDING NODE TestRunner.setBrowser(java.lang.String)[pri:0, instance:null] -213729785
+11:23:10.892 [main] TRACE - [Graph]   ADDING PREDECESSOR FOR TestRunner.setBrowser(java.lang.String)[pri:0, instance:null] ==> AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null]
+11:23:10.892 [main] TRACE - [Graph]   REMOVED AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+11:23:10.892 [main] TRACE - [Graph] ================ SORTING
+11:23:10.892 [ForkJoinPool.commonPool-worker-2] TRACE - [Graph]   ADDING PREDECESSOR FOR TestRunner.setBrowser(java.lang.String)[pri:0, instance:null] ==> AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null]
+11:23:10.893 [main] TRACE - [Graph]   REMOVED PRED AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null] FROM NODE TestRunner.setBrowser(java.lang.String)[pri:0, instance:null]
+11:23:10.893 [main] TRACE - [Graph] =============== DONE SORTING
+11:23:10.893 [main] TRACE - [Graph] ====== SORTED NODES
+11:23:10.893 [main] TRACE - [Graph]               AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null]
+11:23:10.893 [main] TRACE - [Graph]               TestRunner.setBrowser(java.lang.String)[pri:0, instance:null]
+11:23:10.893 [main] TRACE - [Graph] ====== END SORTED NODES
+11:23:10.894 [main] TRACE - [Graph] ADDING NODE AbstractTestNGCucumberTests.tearDownClass()[pri:0, instance:null] 1523153566
+11:23:10.894 [main] TRACE - [Graph] ================ SORTING
+11:23:10.894 [main] TRACE - [Graph] =============== DONE SORTING
+11:23:10.894 [main] TRACE - [Graph] ====== SORTED NODES
+11:23:10.895 [main] TRACE - [Graph] ====== END SORTED NODES
+11:23:10.896 [main] TRACE - [Graph] ADDING NODE AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@5d9b7a8a] 420111195
+11:23:10.896 [main] TRACE - [Graph] ================ SORTING
+11:23:10.896 [main] TRACE - [Graph] =============== DONE SORTING
+11:23:10.896 [main] TRACE - [Graph] ====== SORTED NODES
+11:23:10.897 [main] TRACE - [Graph] ====== END SORTED NODES
+11:23:10.899 [main] INFO  - [TestNG] Running:
+  C:\Automation\workspace\DigitInsuranceTestNG\testng.xml
+
+11:23:21.551 [TestNG-tests-2] INFO  - Navigated to Health Insurance section...
+11:23:21.905 [TestNG-tests-1] INFO  - Navigated to Health Insurance section...
+11:23:21.948 [TestNG-tests-2] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:23:21.950 [TestNG-tests-1] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:23:21.953 [TestNG-tests-2] DEBUG - Parsing relationship: /_rels/.rels
+11:23:21.957 [TestNG-tests-1] DEBUG - Parsing relationship: /_rels/.rels
+11:23:22.414 [TestNG-tests-2] TRACE - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+11:23:22.419 [TestNG-tests-2] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+11:23:22.421 [TestNG-tests-2] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+11:23:22.422 [TestNG-tests-2] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+11:23:22.423 [TestNG-tests-2] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+11:23:22.428 [TestNG-tests-2] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+11:23:22.454 [TestNG-tests-2] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+11:23:22.457 [TestNG-tests-2] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+11:23:22.464 [TestNG-tests-2] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+11:23:22.468 [TestNG-tests-2] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+11:23:22.469 [TestNG-tests-2] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+11:23:22.472 [TestNG-tests-2] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+11:23:22.473 [TestNG-tests-2] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+11:23:22.476 [TestNG-tests-2] TRACE - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+11:23:22.557 [TestNG-tests-2] TRACE - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+11:23:22.559 [TestNG-tests-2] TRACE - Resolving type for handle themefd26doctype
+11:23:22.671 [TestNG-tests-2] TRACE - Resolving type for handle stylesheet5d8bdoctype
+11:23:22.683 [TestNG-tests-2] TRACE - Resolving type for handle ctstylesheet4257type
+11:23:22.694 [TestNG-tests-1] TRACE - Resolving type for handle ctnumfmtsb58btype
+11:23:22.699 [TestNG-tests-2] TRACE - Resolving type for handle ctnumfmt3870type
+11:23:22.702 [TestNG-tests-2] TRACE - Resolving type for handle stnumfmtid76fbtype
+11:23:22.714 [TestNG-tests-1] TRACE - Resolving type for handle stxstringf179type
+11:23:22.717 [TestNG-tests-1] TRACE - Resolving type for handle ctfonts6623type
+11:23:22.722 [TestNG-tests-1] TRACE - Resolving type for handle ctfont14d8type
+11:23:22.733 [TestNG-tests-1] TRACE - Resolving type for handle ctfills2c6ftype
+11:23:22.737 [TestNG-tests-1] TRACE - Resolving type for handle ctfill550ctype
+11:23:22.744 [TestNG-tests-1] TRACE - Resolving type for handle ctborders0d66type
+11:23:22.749 [TestNG-tests-2] TRACE - Resolving type for handle ctborderf935type
+11:23:22.754 [TestNG-tests-1] TRACE - Resolving type for handle ctcellxfs1322type
+11:23:22.760 [TestNG-tests-2] TRACE - Resolving type for handle ctxf97f7type
+11:23:22.764 [TestNG-tests-1] TRACE - Resolving type for handle ctcellstylexfsa81ftype
+11:23:22.768 [TestNG-tests-1] TRACE - Resolving type for handle ctdxfsb26atype
+11:23:22.774 [TestNG-tests-2] TRACE - Resolving type for handle cttablestyles872ftype
+11:23:22.780 [TestNG-tests-2] TRACE - Resolving type for handle sstf81fdoctype
+11:23:22.785 [TestNG-tests-1] TRACE - Resolving type for handle ctsst44f3type
+11:23:22.797 [TestNG-tests-1] TRACE - Resolving type for handle ctrsta472type
+11:23:22.829 [TestNG-tests-2] TRACE - Resolving type for handle workbookec17doctype
+11:23:22.836 [TestNG-tests-2] TRACE - Resolving type for handle ctworkbook83c3type
+11:23:22.843 [TestNG-tests-1] TRACE - Resolving type for handle ctsheets49fdtype
+11:23:22.846 [TestNG-tests-1] TRACE - Resolving type for handle ctsheet4dbetype
+11:23:22.850 [TestNG-tests-2] TRACE - Resolving type for handle strelationshipid1e94type
+11:23:22.853 [TestNG-tests-1] TRACE - Resolving type for handle worksheetf539doctype
+11:23:22.862 [TestNG-tests-2] TRACE - Resolving type for handle ctworksheet530dtype
+11:23:22.874 [TestNG-tests-1] TRACE - Resolving type for handle ctcols627ctype
+11:23:22.881 [TestNG-tests-2] TRACE - Resolving type for handle ctcola95ftype
+11:23:22.912 [TestNG-tests-2] TRACE - Resolving type for handle ctsheetdata8408type
+11:23:22.916 [TestNG-tests-2] TRACE - Resolving type for handle ctrowdd39type
+11:23:22.927 [TestNG-tests-2] TRACE - Resolving type for handle ctcell842btype
+11:23:22.941 [TestNG-tests-2] TRACE - Resolving type for handle stcellrefe4e0type
+11:23:22.969 [TestNG-tests-2] TRACE - Resolving type for handle stcelltypebf95type
+11:23:22.985 [TestNG-tests-1] TRACE - Resolving type for handle stcellstylexfid70c7type
+11:23:23.357 [TestNG-tests-1] INFO  - Entered pincode: 600001
+11:23:23.368 [TestNG-tests-2] INFO  - Entered pincode: 600001
+11:23:23.628 [TestNG-tests-1] INFO  - Entered mobile number: 9999999999
+11:23:23.639 [TestNG-tests-2] INFO  - Entered mobile number: 9999999999
+11:23:23.797 [TestNG-tests-1] INFO  - Clicked View Price Button.
+11:23:23.801 [TestNG-tests-2] INFO  - Clicked View Price Button.
+11:23:31.139 [TestNG-tests-2] INFO  - Accessed health insurance policy menu.
+11:23:32.217 [TestNG-tests-1] INFO  - Accessed health insurance policy menu.
+11:23:35.156 [TestNG-tests-2] INFO  - Fetched family menu items.
+11:23:35.156 [TestNG-tests-2] INFO  - Fetched parent menu items.
+11:23:55.782 [main] DEBUG - suiteXmlPath: "C:\Automation\workspace\DigitInsuranceTestNG\testng.xml"
+11:23:56.054 [main] TRACE - [Graph] ADDING NODE AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null] -393284817
+11:23:56.054 [main] TRACE - [Graph] ADDING NODE TestRunner.setBrowser(java.lang.String)[pri:0, instance:null] -213729785
+11:23:56.054 [main] TRACE - [Graph]   ADDING PREDECESSOR FOR TestRunner.setBrowser(java.lang.String)[pri:0, instance:null] ==> AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null]
+11:23:56.058 [main] TRACE - [Graph]   REMOVED AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+11:23:56.058 [main] TRACE - [Graph] ================ SORTING
+11:23:56.061 [ForkJoinPool.commonPool-worker-1] TRACE - [Graph]   ADDING PREDECESSOR FOR TestRunner.setBrowser(java.lang.String)[pri:0, instance:null] ==> AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null]
+11:23:56.062 [main] TRACE - [Graph]   REMOVED PRED AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null] FROM NODE TestRunner.setBrowser(java.lang.String)[pri:0, instance:null]
+11:23:56.062 [main] TRACE - [Graph] =============== DONE SORTING
+11:23:56.062 [main] TRACE - [Graph] ====== SORTED NODES
+11:23:56.062 [main] TRACE - [Graph]               AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null]
+11:23:56.063 [main] TRACE - [Graph]               TestRunner.setBrowser(java.lang.String)[pri:0, instance:null]
+11:23:56.063 [main] TRACE - [Graph] ====== END SORTED NODES
+11:23:56.064 [main] TRACE - [Graph] ADDING NODE AbstractTestNGCucumberTests.tearDownClass()[pri:0, instance:null] 1523153566
+11:23:56.064 [main] TRACE - [Graph] ================ SORTING
+11:23:56.064 [main] TRACE - [Graph] =============== DONE SORTING
+11:23:56.064 [main] TRACE - [Graph] ====== SORTED NODES
+11:23:56.065 [main] TRACE - [Graph] ====== END SORTED NODES
+11:23:56.072 [main] TRACE - [Graph] ADDING NODE AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1852a3ff] -742290224
+11:23:56.072 [main] TRACE - [Graph] ================ SORTING
+11:23:56.073 [main] TRACE - [Graph] =============== DONE SORTING
+11:23:56.073 [main] TRACE - [Graph] ====== SORTED NODES
+11:23:56.073 [main] TRACE - [Graph] ====== END SORTED NODES
+11:23:56.087 [main] TRACE - [Graph] ADDING NODE AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null] -393284817
+11:23:56.087 [main] TRACE - [Graph] ADDING NODE TestRunner.setBrowser(java.lang.String)[pri:0, instance:null] -213729785
+11:23:56.088 [main] TRACE - [Graph]   ADDING PREDECESSOR FOR TestRunner.setBrowser(java.lang.String)[pri:0, instance:null] ==> AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null]
+11:23:56.088 [main] TRACE - [Graph]   REMOVED AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+11:23:56.088 [main] TRACE - [Graph] ================ SORTING
+11:23:56.088 [main] TRACE - [Graph]   ADDING PREDECESSOR FOR TestRunner.setBrowser(java.lang.String)[pri:0, instance:null] ==> AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null]

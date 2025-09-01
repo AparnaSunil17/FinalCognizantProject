@@ -36,15 +36,37 @@
 		<dependency>
 		    <groupId>io.cucumber</groupId>
 		    <artifactId>cucumber-java</artifactId>
-		    <version>7.27.2</version>
+		    <version>7.11.2</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+		
+		<!-- Cucumber Core -->
 		<dependency>
+    		<groupId>io.cucumber</groupId>
+    		<artifactId>cucumber-core</artifactId>
+    		<version>7.11.2</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+		<!--<dependency>
 		    <groupId>io.cucumber</groupId>
 		    <artifactId>cucumber-junit</artifactId>
 		    <version>7.27.2</version>
 		    <scope>test</scope>
+		</dependency> -->
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
+		<dependency>
+    		<groupId>io.cucumber</groupId>
+    		<artifactId>cucumber-testng</artifactId>
+    	<version>7.11.2</version>
 		</dependency>
+		
+		<!-- Cucumber Plugin (for reports) -->
+		<dependency>
+    		<groupId>io.cucumber</groupId>
+    		<artifactId>cucumber-plugin</artifactId>
+    		<version>7.11.2</version>
+		</dependency>
+
 		<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
 		<dependency>
 		    <groupId>org.apache.logging.log4j</groupId>
@@ -87,5 +109,13 @@
 		    <artifactId>extentreports-cucumber7-adapter</artifactId>
 		    <version>1.14.0</version>
 		</dependency>
+		
+<!-- ExtentReports Spark Reporter -->
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>5.0.9</version>
+</dependency>
+
   </dependencies>
 </project>
